@@ -1,0 +1,22 @@
+INICIO
+	cont = 0;
+	m = 0;
+	f = 0;
+	FAÇA
+		ESCREVA("Qual o seu nome? ");
+		LEIA(nome);
+		ESCREVA("Qual o sexo 'm' ou 'f': ");
+		LEIA(sexo);
+		cont = cont + 1;
+		ESCREVA("Você é o paciente número cont");
+		SE(sexo == 'm') ENTÃO
+			m = m + 1;
+		SENÃO
+			f = f + 1;
+		FIMSE
+		ESCREVA("Mais algum paciente 's' ou 'n': ");
+		LEIA(continuar);
+	ENQUANTO(continuar == 's');
+	ESCREVA("Hoje foram atendidos %d pacientes,", cont);
+	ESCREVA(" %d do sexo masculino e %d do sexo feminino\n", m, f);
+FIM
