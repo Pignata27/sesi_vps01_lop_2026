@@ -1,4 +1,4 @@
-##**VPS01 verificaçâo Prática Somativa 01**
+## **VPS01 verificaçâo Prática Somativa 01**
 
 Arquivos gerados durante a avaliaçâo de Lógica de Programaçâo, algoritima e fluxograma
 
